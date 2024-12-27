@@ -51,27 +51,16 @@ _Halaman Print_
 
 ### Langkah-langkah instalasi
 
--   Clone repository ini
-
-HTTPS
-
-```
-https://github.com/mrizkimaulidan/aset.git
-```
-
-SSH
-
-```
-git@github.com:mrizkimaulidan/aset.git
-```
-
 -   Install seluruh packages yang dibutuhkan
 
 ```
 composer install
+atau
+composer update
 ```
 
--   Siapkan database dan atur file .env sesuai dengan konfigurasi Anda
+-   Siapkan database dan
+-   .env sesuai dengan konfigurasi Anda
 -   Ubah value APP_NAME= pada file .env menjadi nama aplikasi yang anda inginkan
 -   Jika sudah, migrate seluruh migrasi dan seeding data
 
